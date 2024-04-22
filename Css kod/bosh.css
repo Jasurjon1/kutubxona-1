@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #ffffff; /* Background color */
+    padding: 15px 0; /* Padding around the navbar */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 4.3rem; /* Logo image height */
+}
+
+.navbar-caption {
+    margin-left: 15px; /* Spacing between logo and caption */
+    font-size: 24px; /* Caption font size */
+    color: #000000; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar-caption:hover {
+    color: #007bff; /* Hover color */
+}
+
+.navbar-toggler {
+    border: none; /* Remove border */
+    background-color: transparent; /* Transparent background */
+    cursor: pointer; /* Cursor pointer */
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px; /* Hamburger height */
+}
+
+.bar {
+    width: 30px; /* Bar width */
+    height: 4px; /* Bar height */
+    background-color: #000000; /* Bar color */
+}
